@@ -1,3 +1,10 @@
+// Name: Laith Wajeeh
+// Class: CS 145
+// Assignment: Lab_2 : Target-Heart-Rate Calculator
+// sources: w3schools.com, stackexchange.com, and geeksforgeeks.org
+// Purpose: Calculate your target heart rate
+
+//was not able to get package to work correctly but was able to get compiled into jar (can I get extra credit for that?)
 //package lab2;
 
 import java.time.LocalDate;
@@ -101,6 +108,11 @@ public class HeartRates {
     public class Main {
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
+            System.out.println("Enter Your Name and Numerical Date of Birth to determine for max and target heart rate.");
+
+            System.out.println("");
+            System.err.println("--------------------------------------");
+            System.out.println("");
 
             System.out.print("First Name: ");
             String first = scan.next();
@@ -121,8 +133,8 @@ public class HeartRates {
             
             System.out.println("");
             System.err.println("--------------------------------------");
-            
             System.out.println("");
+
             System.out.println("First Name: " + rate.getFirstName());
             System.out.println("Last Name: " + rate.getLastName());
             System.out.println("Age: " + rate.getAge());
